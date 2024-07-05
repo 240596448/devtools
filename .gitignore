@@ -1,3 +1,6 @@
 .vscode/*
+!.vscode/tasks.json
+
 temp/*
 *.ospx
+*.code-workspace

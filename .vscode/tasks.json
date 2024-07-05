@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "opm build .",
+			"problemMatcher": [],
+			"label": "devtools: Собрать пакет",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"command": "./installlocalhost.sh",
+			"problemMatcher": [],
+			"label": "devtools: Собрать и установить пакет",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		}
+	]
+}
